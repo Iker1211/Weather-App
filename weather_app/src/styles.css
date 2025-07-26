@@ -1,3 +1,55 @@
+@media only screen and (min-width: 768px) {
+    /* tablets and desktop */
+}
+
+@media only screen and (max-width: 767px) {
+    /* phones */
+}
+
+@media only screen and (max-width: 767px) and (orientation: portrait) {
+    /* portrait phones */
+}
+
 body {
-    background-color: blue;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    /* position: fixed;
+    top: 0; */
+    width: 100vw;
+    height: fit-content;
+    background-color: red;
+}
+
+footer {
+    /* position: fixed;
+    bottom: 0; */
+    width: 100vw;
+    height: fit-content;
+    background-color: red;
+    height: fit-content;
+}
+
+section {
+    /* width: 50%;
+    height: 50%; */
+    /* height: 80vh; */
+    /* margin-top: 40vh;  */
+    /* height: 70vh; */
+    flex: 1;
+    background-color: pink;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    background-color: white;
+    height: 50vh;
+    width: 33vw;
 }

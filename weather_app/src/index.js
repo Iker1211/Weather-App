@@ -1,3 +1,4 @@
+import "./reset.css"
 import "./styles.css";
 
 const key = "A4G94C3GM9CKR6XA64CHYMMRQ";
