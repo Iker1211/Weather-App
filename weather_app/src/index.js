@@ -4,12 +4,12 @@ import "./styles.css";
 const key = "A4G94C3GM9CKR6XA64CHYMMRQ";
 const url = "https://weather.visualcrossing.com/VisualCrossingWebServices/rest/services/timeline/";
 
+let form = document.getElementById("form-id");
 let searchCity = document.getElementById("input");
-let search = document.getElementById("search"); 
 
 let city = "ciudad del cabo";
 
-search.addEventListener("click", (event) => {
+form.addEventListener("submit", (event) => {
     event.preventDefault();
 
     city = searchCity.value;

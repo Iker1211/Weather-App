@@ -45,14 +45,11 @@ body {
 }
 
 header {
-    /* position: fixed;
-    top: 0; */
     width: 100vw;
     height: fit-content;
     display: flex;
     gap: 1rem;
     padding: 1rem;
-    /* background-color: red; */
 }
 
 header, footer {
@@ -60,17 +57,13 @@ header, footer {
 }
 
 footer {
-    /* position: fixed;
-    bottom: 0; */
     width: 100vw;
     height: fit-content;
-    /* background-color: red; */
-    height: fit-content;
+    padding: 0.5rem;
 }
 
 section {
     flex: 1;
-    /* background-color: pink;  */
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -86,6 +79,22 @@ section {
     padding: 1rem;
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
     transition: all .2s ease-in;
+
+    & #temp {
+    font-size: 6rem; 
+    display: block;
+    }
+
+    & #feelslike {
+        font-size: 1.5rem;
+        margin-top: 20px;
+        margin-right: 10px;
+    }
+
+    & #humidity {
+        font-size: 1.5rem;
+        margin-top: 10px;
+    }
 }
 
 .card:hover {
